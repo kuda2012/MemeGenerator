@@ -1,0 +1,142 @@
+html{
+
+    height: 100%;
+}
+
+
+body{
+
+    height: 100%;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+
+}
+
+#titleLabel{
+
+    margin-top: 15px;
+    font-weight: 400;
+}
+
+
+#grayBox{
+
+    height: 50%;
+    width: 100%;
+    background-color: rgb(245, 244, 244);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#whiteBox{
+
+    height: 50%;
+    width: 100%;
+    display: flex;
+    background-color: black;
+  
+
+  
+}
+
+.imgDivs{
+    max-height:600px ;
+    max-width: 800px;
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+
+    margin: 20px;
+  
+    flex-direction: column;
+
+
+
+}
+
+
+
+.topText{
+
+    color:white;
+    font-size: 5vw;
+    font-size: 5vh;
+    position: absolute;
+    top: -13px;
+ 
+}
+
+.bottomText{
+
+
+    color:white;
+    font-size: 5vw;
+    font-size: 5vh;
+    position: absolute;
+    top: 142px;
+
+
+}
+
+.pic{
+
+
+   max-width: 600px;
+    max-height:800px;
+}
+
+.container{
+  
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+
+}
+
+
+
+
+
+
+#form1{
+
+    width:100%;
+ 
+}
+
+#box1{
+
+    width:100%;
+}
+
+#form2{
+
+    width:100%;
+ 
+}
+#box2{
+
+    width:100%;
+}
+
+#form3{
+
+    width:100%;
+ 
+}
+#box3{
+
+    width:100%;
+}
